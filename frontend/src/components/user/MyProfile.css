@@ -1,0 +1,100 @@
+.mppage {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+}
+.mpContain {
+    width: 90%;
+    background-color: rgba(208, 206, 206, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+    margin-top: 5vmin;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 1);
+}
+
+.mp-box {
+    width: 90%;
+    height: 80vmin;
+    background-color: rgba(207, 206, 206, 0.5);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    /* align-items: center; */
+    height: auto;
+    margin-bottom: 2vmin;
+}
+
+.mpContain header {
+    font-size: 3vmin;
+    margin-top: 3vmin;
+}
+
+.mpContain .mf-circular-image {
+    width: 20vmin;
+    height: 20vmin;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 1.5vmin;
+}
+
+.mpContain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mp-box {
+    margin: 1vmin;
+}
+
+.mp {
+    margin-top: 2vmin;
+}
+
+.mpContain .mp-box .data {
+    margin: 1vmin;
+    margin-left: 4vmin;
+    font-size: 3vmin;
+}
+
+.mpContain .toCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mpContain .resume  {
+    height: auto;
+    width: 50%;
+    margin-bottom: 3vmin;
+}
+
+/* .mp-button button {
+    height: 8vmin;
+    width: 20vmin;
+    margin-bottom: 5vmin;
+    margin-top: 2vmin;
+    border: none;
+    font-size: 3vmin;
+    border-radius: 0px;
+    background-color: rgb(74, 85, 162);
+    color: white;
+}
+
+.mp-button button:hover {
+    background-color:rgb(120, 149, 203);
+    color: black;
+} */

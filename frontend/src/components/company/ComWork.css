@@ -1,0 +1,87 @@
+.cw-contain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    margin-bottom: 2vmin;
+}
+
+.work {
+    width: 80%;
+    background-color: rgba(208, 206, 206, 0.5);
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.7);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5vmin;
+}
+
+.work header {
+    font-size: 3vmin;
+    margin: 2vmin;
+    margin-top: 3vmin;
+}
+
+.w-table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.w-b-addWork {
+    width: 95%;
+    margin-bottom: 1vmin;
+}
+.w-b-addWork button {
+    background-color: green;
+    padding: 1vmin;
+    border-radius: 1vmin;
+}
+.w-b-addWork button:hover {
+    background-color: rgb(164, 246, 164);
+}
+.w-table table {
+    width: 95%;
+    height: 10vmin;
+}
+
+.w-table  th {
+    height: 2vmin;
+    border-bottom: 1px solid black;
+}
+ 
+.w-table td {
+    height: 2vmin;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.w-table button {
+    padding: 0.5vmin;
+    border-radius: 1vmin;
+}
+
+.w-table .b-detail {
+    background-color: rgb(51, 51, 236);
+}
+
+.w-table .b-detail:hover {
+    background-color: rgb(154, 154, 246);
+}
+
+.w-table .b-del {
+    background-color: red;
+}
+
+.w-table .b-del:hover {
+    background-color: rgb(237, 131, 131);
+}

@@ -1,0 +1,16 @@
+.wlcontainer {
+    height: 80vmin;
+    background-color: rgb(197, 223, 248);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+}
+
+header {
+    font-size: 3vmin;
+    margin-top: 1vmin;
+}

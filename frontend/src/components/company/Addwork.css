@@ -1,0 +1,100 @@
+.aw-contain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2vmin;
+}
+
+.aw-contain .addwork {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5vmin;
+    background-color: white;
+}
+
+.aw-contain .addwork header {
+    font-size: 3vmin;
+    margin: 3vmin;
+}
+
+.addwork .d-f {
+    width: 90%;
+}
+
+.addwork form {
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.add-data {
+    display: flex;
+}
+
+.add-data select {
+    border: 1px solid black;
+    padding: 1vmin;
+}
+
+.add-data input {
+    border: 1px solid black;
+    padding: 1vmin;
+}
+
+.add-data textarea {
+    border: 1px solid black;
+    width: 100%;
+    height: 20vmin;
+}
+
+.add-data .semi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 2vmin;
+    margin-right: 5%;
+}
+
+.add-data .semi-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 42%;
+    margin: 2vmin;
+    margin-right: 5%;
+}
+
+.add-data .semi-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 42%;
+    margin: 2vmin;
+    margin-left: 5%;
+}
+
+.b-add-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.b-add-data button {
+    background-color: rgb(74, 85, 162);
+    color: white;
+    padding: 1vmin;
+    border-radius: 10px;
+}
+
+.b-add-data button:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}

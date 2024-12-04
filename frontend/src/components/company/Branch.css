@@ -1,0 +1,94 @@
+.b-contain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    margin-bottom: 2vmin;
+}
+
+.branch {
+    width: 80%;
+    /* background-color: rgb(197, 223, 248); */
+    background-color: rgba(208, 206, 206, 0.5);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5vmin;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.7);
+}
+
+.branch header {
+    font-size: 3vmin;
+    margin: 2vmin;
+    margin-top: 3vmin;
+}
+
+.b-table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.b-addBranch {
+    width: 95%;
+    margin-bottom: 1vmin;
+}
+.b-addBranch button {
+    background-color: green;
+    padding: 1vmin;
+    border-radius: 1vmin;
+}
+.b-addBranch button:hover {
+    background-color: rgb(164, 246, 164);
+}
+table {
+    /* border: 2px solid forestgreen; */
+    width: 95%;
+    height: 10vmin;
+    /* background: white; */
+}
+
+tr {
+    /* border: 1px solid black; */
+}
+
+th {
+    height: 2vmin;
+    border-bottom: 1px solid black;
+}
+ 
+td {
+    height: 2vmin;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.b-table button {
+    padding: 0.5vmin;
+    border-radius: 1vmin;
+}
+
+.b-table .b-edit {
+    background-color: rgb(51, 51, 236);
+}
+
+.b-table .b-edit:hover {
+    background-color: rgb(154, 154, 246);
+}
+
+.b-table .b-del {
+    background-color: red;
+}
+
+.b-table .b-del:hover {
+    background-color: rgb(237, 131, 131);
+}

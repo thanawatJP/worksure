@@ -1,0 +1,136 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+//คำสั่ง
+// "db:migrate": "npx prisma migrate dev --name init", // สร้าง table
+// "db:generate": "npx prisma generate", // สร้าง code เพื่อเอามาใข้ในโปรเจค
+// "db:studio": "npx prisma studio", // เปิดดู database ใน browser (ทุกครั้งที่ push หรือ migrate ให้ปิดแล้วเปิดใหม่)
+// "db:push": "npx prisma db push --preview-feature" // สร้าง table ใหม่ และ ลบ table เก่า
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+model UserAuth {
+  loginId  Int    @id @default(autoincrement())
+  email    String @unique
+  password String
+
+  role Role
+
+  Jobber  Jobber?
+  Company Company?
+}
+
+model Jobber {
+  userId    Int    @id
+  firstName String
+  lastName  String
+  nickName  String
+  sex       String
+  phone     String
+  birthday  String
+  lineId    String
+
+  image     String
+  idCard    String
+  portfolio String
+
+  User      UserAuth?   @relation(fields: [userId], references: [loginId])
+  JobManage JobManage[]
+}
+
+model Company {
+  userId        Int    @id
+  name          String
+  businessType  String
+  contractName  String
+  contractPhone String
+  taxNo         String
+  type          String
+  about         String
+  facebook      String
+  line          String
+
+  image String
+
+  Branch Branch[]
+
+  locationId Int @unique
+
+  Location Location  @relation(fields: [locationId], references: [id])
+  User     UserAuth? @relation(fields: [userId], references: [loginId])
+}
+
+model Location {
+  id          Int      @id @default(autoincrement())
+  address     String
+  province    String
+  district    String
+  subDistrict String
+  postCode    String
+  Branch      Branch?
+  Company     Company?
+}
+
+model Branch {
+  id         Int    @id @default(autoincrement())
+  name       String
+  phone      String //
+  email      String //
+  locationId Int    @unique
+  companyId  Int
+
+  Location Location @relation(fields: [locationId], references: [id])
+  Company  Company  @relation(fields: [companyId], references: [userId])
+
+  Job Job[]
+}
+
+model Job {
+  id        Int      @id @default(autoincrement())
+  position  String
+  detail    String
+  num       String
+  req       String
+  welfare   String
+  wages     String
+  image     String //
+  jobDate   String //
+  timeStart DateTime
+  timeEnd   DateTime
+
+  branchId  Int?
+  Branch    Branch?     @relation(fields: [branchId], references: [id])
+  JobManage JobManage[]
+}
+
+model JobManage {
+  jobManageId Int     @id @default(autoincrement())
+  Jobber      Jobber? @relation(fields: [jobberId], references: [userId])
+  jobberId    Int?
+  Job         Job?    @relation(fields: [jobId], references: [id])
+  jobId       Int?
+  state       String
+
+  Review Review[]
+}
+
+model Review {
+  id      Int    @id @default(autoincrement())
+  comment String
+  rating  Int
+
+  jobManageId Int?
+  JobManage   JobManage? @relation(fields: [jobManageId], references: [jobManageId])
+}

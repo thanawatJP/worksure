@@ -1,0 +1,116 @@
+.wl-container {
+    height: 80vmin;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+    font-size: 1.75vmin;
+}
+
+.wl-container header {
+    font-size: 3vmin;
+    margin-top: 5vmin;
+}
+
+.w-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 90%;
+    height: auto;
+    background-color: rgba(208, 206, 206, 0.5);
+    border-radius: 25px;
+    margin: 2vmin;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+}
+
+.w-container:hover {
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.7);
+}
+
+.w-image {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+ 
+/* CircularImage.css */
+.w-circular-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ccc;
+    /* margin: 2vmin; */
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.w-circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.w-com-name {
+    width: 25%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+.w-jobwage-brach {
+    width: 35%;
+    height: auto;
+    /* background-color: darkblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+.w-want {
+    width: 15%;
+    height: auto;
+    /* background-color: lawngreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+.w-want button {
+    color: white;
+    background: rgb(74, 85, 162);
+    border-radius: 10px;
+    padding: 1vmin;
+}
+
+.w-want button:hover {
+    color: black;
+    background-color: rgb(197, 223, 248);
+}

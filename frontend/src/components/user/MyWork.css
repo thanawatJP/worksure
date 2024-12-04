@@ -1,0 +1,88 @@
+.mw-contain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    margin-bottom: 2vmin;
+}
+
+.mw-work {
+    width: 80%;
+    background-color: rgba(208, 206, 206, 0.5);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5vmin;
+}
+
+.mw-work header {
+    font-size: 3vmin;
+    margin: 2vmin;
+    margin-top: 3vmin;
+}
+
+.mw-table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.mw-table table {
+    width: 95%;
+    height: 10vmin;
+}
+
+.mw-table  th {
+    height: 2vmin;
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+ 
+.mw-table td {
+    height: 2vmin;
+    text-align: center;
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+
+.mw-table button {
+    padding: 0.5vmin;
+    border-radius: 1vmin;
+}
+
+.mw-table .b-detail {
+    background-color: rgb(51, 51, 236);
+}
+
+.mw-table .b-detail:hover {
+    background-color: rgb(154, 154, 246);
+}
+
+.mw-table .b-cancel {
+    background-color: red;
+}
+
+.mw-table .b-cancel:hover {
+    background-color: rgb(237, 131, 131);
+}
+
+.state-waiting {
+    color: orange;
+}
+  
+.state-accepted {
+    color: green;
+}
+  
+.state-denied {
+    color: red;
+}
+

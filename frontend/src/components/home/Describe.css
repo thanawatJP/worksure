@@ -1,0 +1,44 @@
+.dContain {
+    height: 80vmin;
+    background-color: rgb(197, 223, 248);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+}
+
+.circular-image {
+    width: 12vmin;
+    height: 12vmin;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 1.5vmin;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box {
+    width: 75%;
+    height: 80vmin;
+    background-color: rgb(160, 191, 224);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    /* align-items: center; */
+    height: auto;
+    margin-bottom: 2vmin;
+}
+
+.box-2 {
+    margin: 1vmin;
+    margin-left: 2vmin;
+}

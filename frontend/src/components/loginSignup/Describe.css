@@ -1,0 +1,200 @@
+.u-des-contain {
+    height: auto;
+    text-align: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.u-describe {
+    height: auto;
+    width: calc(5px + 70vmin);
+    opacity: 0.75;
+    background-color: #b8d3f1;
+    box-shadow: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 5vmin;
+}
+
+.u-des-f {
+    width: 90%;
+    margin-bottom: 1vmin;
+}
+
+.u-des-f label {
+    display: block;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.u-des-f .logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+}
+
+.u-des-f .des-form-control-1 {
+    display: flex;
+}
+
+.des-form-control-1-1 {
+    width: 100%;
+    padding: 1vmin;
+    border: 1px solid #969595;
+}
+
+.des-form-control-1-1 label {
+    font-size: 2vmin;
+}
+
+.des-form-control-1-1 input {
+    display: block;
+    font-size: 2vmin;
+    padding: 5px;
+    width: 100%;
+    margin: 1vmin 0px;
+    margin-top: 1vmin;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.des-form-control-1-1 input:hover {
+    background-color: #b8d3f1;
+}
+
+.alert {
+    font-size: 2vmin;
+    color: red;
+}
+
+.u-des-f .submit {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.u-des-f .submit:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}
+
+
+
+
+
+.c-des-contain {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-des {
+    height: auto;
+    width: calc(5px + 70vmin);
+    opacity: 0.75;
+    background-color: #b8d3f1;
+    box-shadow: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 5vmin;
+}
+
+.c-des-f {
+    width: 90%;
+    margin-bottom: 1vmin;
+}
+
+.c-des-f label {
+    display: block;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.c-des-f .logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+}
+
+.c-des-f .des-form-control-1 {
+    display: flex;
+}
+
+.des-form-control-1-1 {
+    width: 100%;
+    padding: 1vmin;
+    border: 1px solid #969595;
+}
+
+.des-form-control-1-1 label {
+    font-size: 2vmin;
+}
+
+.des-form-control-1-1 input {
+    display: block;
+    font-size: 2vmin;
+    padding: 5px;
+    width: 100%;
+    margin: 1vmin 0px;
+    margin-top: 1vmin;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.des-form-control-1-1 input:hover {
+    background-color: #b8d3f1;
+}
+
+.alert {
+    font-size: 2vmin;
+    color: red;
+}
+
+.c-des-f .submit {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.c-des-f .submit:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}
+
+.c-des-f .submit {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.c-des-f .submit:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}

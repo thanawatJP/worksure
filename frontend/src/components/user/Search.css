@@ -1,0 +1,64 @@
+.s-contain {
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align sub-components to the top */
+    align-items: center;
+    height: auto;
+    margin-bottom: 2vmin;
+}
+
+.search {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputSearch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.inputSearch label {
+    margin-left: 1vmin;
+}
+
+.inputSearch input {
+    border-width: 1px;
+    margin-left: 1vmin;
+    border-radius: 10px;
+    border-color: black;
+    width: 25%;
+}
+
+.search .header {
+    font-size: 3vmin;
+    margin-bottom: 3vmin;
+    /* border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 3vmin;
+    font-size: 2vmin;
+    height: 5vmin;
+    width: 50vmin; */
+}
+
+.button-search {
+    background-color: rgb(160, 191, 224);
+    color: black;
+    padding: 1vmin;
+    border-radius: 10px;
+    font-size: 2vmin;
+    margin-bottom: 3vmin;
+}
+
+.button-search:hover {
+    background-color: rgb(10, 38, 71);
+    color: white;
+}

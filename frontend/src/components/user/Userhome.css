@@ -1,0 +1,16 @@
+.u-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.u-home img {
+    width: 100%;
+    height: 50%;
+}
+.u-home-contain {
+    /* background: white; */
+    width: 90%;
+    height: auto;
+    margin-top: 2vmin;
+    /* margin-bottom: 3vmin; */
+}

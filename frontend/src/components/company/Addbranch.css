@@ -1,0 +1,132 @@
+.ab-contain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2vmin;
+}
+
+.ab-contain .addbranch {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5vmin;
+    background-color: white;
+}
+
+.ab-contain .addbranch header {
+    font-size: 3vmin;
+    margin: 3vmin;
+}
+
+.addbranch .d-f {
+    width: 90%;
+}
+
+.addbranch form {
+    margin-bottom: 3vmin;
+    font-size: 2vmin;
+}
+
+.add-data {
+    display: flex;
+}
+
+.add-data input {
+    border: 1px solid black;
+    padding: 1vmin;
+}
+
+.add-data .semi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 2vmin;
+    margin-right: 5%;
+}
+
+.add-data .semi-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 42%;
+    margin: 2vmin;
+    margin-right: 5%;
+}
+
+.add-data .semi-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 42%;
+    margin: 2vmin;
+    margin-left: 5%;
+}
+
+.add-data-3 {
+    display: flex;
+}
+
+.add-data-3 input {
+    border: 1px solid black;
+    padding: 1vmin;
+}
+
+.add-data-3 .semi-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2vmin;
+    width: 28%;
+}
+
+.add-data-3 .semi-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 28%;
+    margin-left: 5%;
+}
+.add-data-3 .semi-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 28%;
+    margin-left: 5%;
+}
+
+.b-add-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.b-add-data button {
+    background-color: rgb(74, 85, 162);
+    color: white;
+    padding: 1vmin;
+    border-radius: 10px;
+}
+
+.b-add-data button:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}
+
+.error {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1vmin;
+    color: red;
+}
+

@@ -1,0 +1,257 @@
+.contain {
+    height: 90vh;
+    text-align: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.choseRole button {
+    height: calc(8vmin);
+    width: calc(5px + 20vmin);
+    margin-top: 2vmin;
+    border: none;
+    font-size: 3vmin;
+    border-radius: 0px;
+}
+
+.choseRole button:hover {
+    background-color:rgb(197, 223, 248)
+}
+
+.chose {
+    background-color: rgb(120, 149, 203);
+}
+
+.active-button {
+    background-color: rgb(74, 85, 162);
+    color: white;
+}
+
+.blockLogin {
+    height: auto;
+    width: calc(5px + 50vmin);
+    opacity: 0.75;
+    background-color: #b8d3f1;
+    box-shadow: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.f-login {
+    width: 90%;
+    margin-bottom: 1vmin;
+}
+
+.f-login .logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+}
+
+.f-login label {
+    display: block;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.f-login input {
+    display: block;
+    font-size: 2vmin;
+    padding: 5px;
+    width: 100%;
+    margin: 1vmin 0px;
+    margin-top: 1vmin;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.f-login input:hover {
+    background-color: #b8d3f1;
+}
+
+.alert {
+    font-size: 2vmin;
+    color: red;
+}
+
+.f-login .submit {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.f-login  .submit:hover {
+    background-color: rgb(160, 191, 224);
+    color: black;
+}
+
+.f-login p {
+    font-size: 1.75vmin;
+    margin-top: 2vmin;
+    margin-bottom: 1vmin;
+}
+
+
+
+
+
+.u-signup-contain {
+    height: 90vh;
+    text-align: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.u-signup {
+    height: auto;
+    width: calc(5px + 50vmin);
+    opacity: 0.75;
+    background-color: #b8d3f1;
+    box-shadow: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.f-u-signup {
+    width: 90%;
+    margin-bottom: 1vmin;
+}
+
+.f-u-signup label {
+    display: block;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.f-u-signup .u-s-logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+    margin-top: 1vmin;
+}
+
+.f-u-signup input {
+    display: block;
+    font-size: 2vmin;
+    padding: 5px;
+    width: 100%;
+    margin: 1vmin 0px;
+    margin-top: 1.5vmin;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.f-u-signup .b-signup {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.f-u-signup p {
+    font-size: 1.75vmin;
+    margin-top: 1vmin;
+    margin-bottom: 0.5vmin;
+}
+
+
+
+
+
+.c-signup-contain {
+    height: 100vh;
+    text-align: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-signup {
+    height: auto;
+    width: calc(5px + 50vmin);
+    opacity: 0.75;
+    background-color: #b8d3f1;
+    box-shadow: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.f-c-signup {
+    width: 90%;
+    margin-bottom: 1vmin;
+}
+
+.f-c-signup label {
+    display: block;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.f-c-signup .c-logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+    margin-top: 2vmin;
+}
+
+.f-c-signup .u-s-logo {
+    color: rgb(74, 85, 162);
+    font-size: 5vmin;
+    margin-top: 1vmin;
+}
+
+.f-c-signup input {
+    display: block;
+    font-size: 2vmin;
+    padding: 5px;
+    width: 100%;
+    margin: 1vmin 0px;
+    margin-top: 1.5vmin;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.f-c-signup .b-signup {
+    border-radius: 3px;
+    padding: 1vmin;
+    margin: 1vmin 0px;
+    height: 5vmin;
+    font-size: 2vmin;
+    background-color:rgb(74, 85, 162);
+    color: white;
+    margin-top: 2vmin;
+}
+
+.f-c-signup p {
+    font-size: 1.75vmin;
+    margin-top: 1vmin;
+    margin-bottom: 0.5vmin;
+}
+
+

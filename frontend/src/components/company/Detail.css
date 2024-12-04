@@ -1,0 +1,136 @@
+.dw-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.sub-detail {
+    width: 30%;
+    height: auto;
+    background: white;
+    border-radius: 1vmin;
+    margin: 5vmin;
+    margin-right: 2vmin;
+}
+
+.s-d-com-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.s-d-com-img .pos {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.dw-image {
+    width: 40%;
+    height: 100%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+ 
+/* CircularImage.css */
+.dw-circular-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 1px solid black;
+    /* margin: 2vmin; */
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.dw-circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s-d-contain {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+}
+
+.s-d-contain .semi-detail {
+    margin: 1vmin;
+    font-size: 2.5vmin;
+    width: 90%;
+}
+
+.s-d-contain .semi-detail .text {
+    font-weight: bold;
+}
+
+.s-d-contain .b-enroll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vmin;
+}
+
+.s-d-contain .b-enroll button {
+    background: rgb(74, 85, 162);
+    padding: 1vmin;
+    width: 75%;
+    color: white;
+}
+
+.s-d-contain .b-enroll button:hover {
+    color: black;
+    background-color: rgb(197, 223, 248);
+}
+
+.main-detail {
+    width: 60%;
+    height: auto;
+    background: white;
+    border-radius: 1vmin;
+    margin: 5vmin;
+    margin-left: 2vmin;
+    margin-right: 4vmin;
+}
+
+.main-detail .m-d-contain {
+    margin: 3vmin;
+}
+
+.main-detail .m-d-contain .semi-detail {
+    margin-top: 3vmin;
+    font-size: 2vmin;
+}
+
+.main-detail .m-d-contain .semi-detail .title {
+    font-weight: bold;
+    margin-bottom: 1vmin;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word; /* Handles long words that don't fit */
+}
+
+.semi-detail img {
+    width: 100%;
+}
